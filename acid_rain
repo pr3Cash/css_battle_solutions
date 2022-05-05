@@ -1,0 +1,43 @@
+<div class="c1"></div><div class="c2"></div><div class="c3"></div><style>
+body{margin:0;background:#0B2429;}
+  .c1,.c2::before,.c3::before{}
+  .c1{
+    width: 120px;
+    height: 120px;
+      border-radius:105px;
+    background:#F3AC3C;
+    position:relative;
+    top:30px;left:200px
+  }
+   .c2{
+    width: 55px;
+    height: 55px;
+    background:#998235;
+    position:relative;
+    top:-30px;left:205px
+  }
+  .c2::before{
+    width: 120px;
+    height: 120px;
+    background:#998235;
+    content:"";border-radius:150px;
+    position:absolute;
+    top:0px;left:-65px
+  }
+    .c3{
+    width: 55px;
+    height: 55px;
+    background:#F3AC3C;
+    position:relative;
+    top:-25px;left:145px
+  }
+  .c3::before{
+    width: 120px;
+    height: 120px;
+    background:#F3AC3C;
+    content:"";border-radius:150px;
+    position:absolute;
+    top:0px;left:-65px
+  }
+</style>
+
